@@ -24,7 +24,7 @@ stages:
       displayName: Build and publish  an image
       inputs:
         containerRegistry: 'DockerHub'
-        repository: 'jagadeeshvarma169/test1'
+        repository: 'jagadeeshvarma169/test2'
         command: 'buildAndPush'
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
 
