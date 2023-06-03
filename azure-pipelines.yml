@@ -26,5 +26,5 @@ stages:
         containerRegistry: 'DockerHub-1'
         repository: 'jagadeeshvarma169/test2'
         command: 'buildAndPush'
-        dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
+        dockerfile: '$(Build.SourcesDirectory)/**/Dockerfile'
 
